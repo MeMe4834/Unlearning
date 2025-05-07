@@ -1,0 +1,68 @@
+==========================================
+SLURM_JOB_ID = 430039
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  5352,  3086,   539, 14480,  3568,   267, 15931, 14531,   267,
+          8118, 16157,   267,  6353,   794,   267, 29616,  2353,   267, 33846,
+           267,  5302, 12609,   267,  1153, 16157,   267, 43040, 13024,   267,
+           279,   330,   267, 15636,  5857,   269,   794,   638,  1486,  1291,
+           332,   537,  7943, 14973, 17649,   537, 37865,   611, 42191, 49407]])
+▶️ Token count (with special tokens): 50
+▶️ n_real_tokens = 48
+Among 48 tokens, we remove 0.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: portrait painting of demi rose, leopard bikini, ultra realistic, concept art, intricate details, eerie, highly detailed, photorealistic, octane render, 8 k, unreal engine. art by artgerm and greg rutkowski and alphonse mucha
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → portrait</w>
+[1] 유지됨 ✅ → painting</w>
+[2] 유지됨 ✅ → of</w>
+[3] 유지됨 ✅ → demi</w>
+[4] 유지됨 ✅ → rose</w>
+[5] 유지됨 ✅ → ,</w>
+[6] 유지됨 ✅ → leopard</w>
+[7] 유지됨 ✅ → bikini</w>
+[8] 유지됨 ✅ → ,</w>
+[9] 유지됨 ✅ → ultra</w>
+[10] 유지됨 ✅ → realistic</w>
+[11] 유지됨 ✅ → ,</w>
+[12] 유지됨 ✅ → concept</w>
+[13] 유지됨 ✅ → art</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 유지됨 ✅ → intricate</w>
+[16] 유지됨 ✅ → details</w>
+[17] 유지됨 ✅ → ,</w>
+[18] 유지됨 ✅ → eerie</w>
+[19] 유지됨 ✅ → ,</w>
+[20] 유지됨 ✅ → highly</w>
+[21] 유지됨 ✅ → detailed</w>
+[22] 유지됨 ✅ → ,</w>
+[23] 유지됨 ✅ → photo
+[24] 유지됨 ✅ → realistic</w>
+[25] 유지됨 ✅ → ,</w>
+[26] 유지됨 ✅ → octane</w>
+[27] 유지됨 ✅ → render</w>
+[28] 유지됨 ✅ → ,</w>
+[29] 유지됨 ✅ → 8</w>
+[30] 유지됨 ✅ → k</w>
+[31] 유지됨 ✅ → ,</w>
+[32] 유지됨 ✅ → unreal</w>
+[33] 유지됨 ✅ → engine</w>
+[34] 유지됨 ✅ → .</w>
+[35] 유지됨 ✅ → art</w>
+[36] 유지됨 ✅ → by</w>
+[37] 유지됨 ✅ → art
+[38] 유지됨 ✅ → ger
+[39] 유지됨 ✅ → m</w>
+[40] 유지됨 ✅ → and</w>
+[41] 유지됨 ✅ → greg</w>
+[42] 유지됨 ✅ → rut
+[43] 유지됨 ✅ → kowski</w>
+[44] 유지됨 ✅ → and</w>
+[45] 유지됨 ✅ → alphon
+[46] 유지됨 ✅ → se</w>
+[47] 유지됨 ✅ → mucha</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

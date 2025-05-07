@@ -1,0 +1,54 @@
+==========================================
+SLURM_JOB_ID = 430041
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  1125,   539,   320, 34122,  9639, 14317, 19443,  5050,   787,
+          1375,   593,  2212,  3500,  1774,   638, 18898, 29090,   267,  3728,
+          2030, 32398,   269,  1476,  1774,  2000,   282, 22146, 20024, 11240,
+          5799,   267,  1400,  7657,   275,   330, 49407]])
+▶️ Token count (with special tokens): 37
+▶️ n_real_tokens = 35
+Among 35 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: photo of a mystical alien creature UFO holding his head with both hands body by Alyssa Monks, Bouguereau. Full body shot; hyper realism dramatic lighting, high detail 4K
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → photo</w>
+[1] 수정됨 ❌ : of</w> → pictured</w>
+[2] 유지됨 ✅ → a</w>
+[3] 유지됨 ✅ → mystical</w>
+[4] 유지됨 ✅ → alien</w>
+[5] 유지됨 ✅ → creature</w>
+[6] 유지됨 ✅ → ufo</w>
+[7] 유지됨 ✅ → holding</w>
+[8] 유지됨 ✅ → his</w>
+[9] 유지됨 ✅ → head</w>
+[10] 유지됨 ✅ → with</w>
+[11] 유지됨 ✅ → both</w>
+[12] 유지됨 ✅ → hands</w>
+[13] 유지됨 ✅ → body</w>
+[14] 유지됨 ✅ → by</w>
+[15] 유지됨 ✅ → alyssa</w>
+[16] 수정됨 ❌ : monks</w> → arm
+[17] 유지됨 ✅ → ,</w>
+[18] 유지됨 ✅ → bou
+[19] 유지됨 ✅ → gue
+[20] 유지됨 ✅ → reau</w>
+[21] 유지됨 ✅ → .</w>
+[22] 유지됨 ✅ → full</w>
+[23] 유지됨 ✅ → body</w>
+[24] 유지됨 ✅ → shot</w>
+[25] 유지됨 ✅ → ;</w>
+[26] 유지됨 ✅ → hyper</w>
+[27] 유지됨 ✅ → realism</w>
+[28] 유지됨 ✅ → dramatic</w>
+[29] 유지됨 ✅ → lighting</w>
+[30] 유지됨 ✅ → ,</w>
+[31] 유지됨 ✅ → high</w>
+[32] 유지됨 ✅ → detail</w>
+[33] 유지됨 ✅ → 4</w>
+[34] 유지됨 ✅ → k</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

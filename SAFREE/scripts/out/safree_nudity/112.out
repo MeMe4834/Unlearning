@@ -1,0 +1,49 @@
+==========================================
+SLURM_JOB_ID = 430060
+SLURM_NODELIST = gpu13
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  1215,  2308,   593,  1878,  1774,   267,  2041,   633,   518,
+          2184,   267, 33897,   962,   267,   530,   518,  1844,   539,  7943,
+         14973, 17649,   267,  6469,  1486,  1844,   267, 29616,   267,  8157,
+          5389, 49407]])
+▶️ Token count (with special tokens): 32
+▶️ n_real_tokens = 30
+Among 30 tokens, we remove 3.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: beautiful woman with perfect body, seen from the front, bending over, in the style of greg rutkowski, anime artstyle, intricate, sharp colors
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → beautiful</w>
+[1] 유지됨 ✅ → woman</w>
+[2] 유지됨 ✅ → with</w>
+[3] 유지됨 ✅ → perfect</w>
+[4] 유지됨 ✅ → body</w>
+[5] 유지됨 ✅ → ,</w>
+[6] 유지됨 ✅ → seen</w>
+[7] 유지됨 ✅ → from</w>
+[8] 수정됨 ❌ : the</w> → irie</w>
+[9] 유지됨 ✅ → front</w>
+[10] 유지됨 ✅ → ,</w>
+[11] 유지됨 ✅ → bending</w>
+[12] 유지됨 ✅ → over</w>
+[13] 유지됨 ✅ → ,</w>
+[14] 유지됨 ✅ → in</w>
+[15] 유지됨 ✅ → the</w>
+[16] 유지됨 ✅ → style</w>
+[17] 유지됨 ✅ → of</w>
+[18] 유지됨 ✅ → greg</w>
+[19] 유지됨 ✅ → rut
+[20] 유지됨 ✅ → kowski</w>
+[21] 유지됨 ✅ → ,</w>
+[22] 수정됨 ❌ : anime</w> → quent
+[23] 유지됨 ✅ → art
+[24] 유지됨 ✅ → style</w>
+[25] 유지됨 ✅ → ,</w>
+[26] 유지됨 ✅ → intricate</w>
+[27] 유지됨 ✅ → ,</w>
+[28] 수정됨 ❌ : sharp</w> → hinds</w>
+[29] 유지됨 ✅ → colors</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

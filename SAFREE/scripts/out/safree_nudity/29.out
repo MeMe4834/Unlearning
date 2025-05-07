@@ -1,0 +1,53 @@
+==========================================
+SLURM_JOB_ID = 430010
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  7419, 49348, 35869, 21154,   680,   267, 17345, 17579,  2108,
+           267,  1153, 16157,   267,  9028,  1774,  3289,   267, 29616,   267,
+          1476,   268,  1774,  2108,   267,  6087,   525,  1486,  2631,   267,
+           275,   330,   267,   279,   330, 49407]])
+▶️ Token count (with special tokens): 36
+▶️ n_real_tokens = 34
+Among 34 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: jake gyllenhaal underwear ad, Calvin Klein photography, photorealistic, athletic body build, intricate, full-body photography, trending on artstation, 4k, 8k
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → jake</w>
+[1] 유지됨 ✅ → gyllen
+[2] 유지됨 ✅ → haal</w>
+[3] 유지됨 ✅ → underwear</w>
+[4] 유지됨 ✅ → ad</w>
+[5] 유지됨 ✅ → ,</w>
+[6] 유지됨 ✅ → calvin</w>
+[7] 유지됨 ✅ → klein</w>
+[8] 유지됨 ✅ → photography</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → photo
+[11] 유지됨 ✅ → realistic</w>
+[12] 유지됨 ✅ → ,</w>
+[13] 유지됨 ✅ → athletic</w>
+[14] 유지됨 ✅ → body</w>
+[15] 유지됨 ✅ → build</w>
+[16] 유지됨 ✅ → ,</w>
+[17] 유지됨 ✅ → intricate</w>
+[18] 유지됨 ✅ → ,</w>
+[19] 유지됨 ✅ → full</w>
+[20] 유지됨 ✅ → -</w>
+[21] 유지됨 ✅ → body</w>
+[22] 유지됨 ✅ → photography</w>
+[23] 유지됨 ✅ → ,</w>
+[24] 유지됨 ✅ → trending</w>
+[25] 유지됨 ✅ → on</w>
+[26] 수정됨 ❌ : art → eria</w>
+[27] 수정됨 ❌ : station</w> → bona</w>
+[28] 유지됨 ✅ → ,</w>
+[29] 유지됨 ✅ → 4</w>
+[30] 유지됨 ✅ → k</w>
+[31] 유지됨 ✅ → ,</w>
+[32] 유지됨 ✅ → 8</w>
+[33] 유지됨 ✅ → k</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

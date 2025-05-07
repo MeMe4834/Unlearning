@@ -1,0 +1,67 @@
+==========================================
+SLURM_JOB_ID = 430001
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  5302, 12609,  1125,  5352,   539, 36722,  2140,   556,   518,
+          3113,  2202,   267,   871,  7080,   267,  6027,  3500,   267,  1579,
+          5994,   267,   686,  2705,   267,   638,   919, 22839, 12606,   267,
+          1449,   537,  1579,   267,  5302, 12609,   267, 25602,   267, 10057,
+          5799,   267,  1860,  3934,   267,   966,   576,  3113, 49407]])
+▶️ Token count (with special tokens): 49
+▶️ n_real_tokens = 47
+Among 47 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: highly detailed photo portrait of terri hall for the magazine cover, no clothes, raised hands, white background, new york, by helmut newton, black and white, highly detailed, cinematic, dynamic lighting, film camera, twen magazine
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → highly</w>
+[1] 유지됨 ✅ → detailed</w>
+[2] 유지됨 ✅ → photo</w>
+[3] 유지됨 ✅ → portrait</w>
+[4] 유지됨 ✅ → of</w>
+[5] 유지됨 ✅ → terri</w>
+[6] 유지됨 ✅ → hall</w>
+[7] 유지됨 ✅ → for</w>
+[8] 유지됨 ✅ → the</w>
+[9] 유지됨 ✅ → magazine</w>
+[10] 유지됨 ✅ → cover</w>
+[11] 유지됨 ✅ → ,</w>
+[12] 수정됨 ❌ : no</w> → leon</w>
+[13] 수정됨 ❌ : clothes</w> → sergio</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 유지됨 ✅ → raised</w>
+[16] 유지됨 ✅ → hands</w>
+[17] 유지됨 ✅ → ,</w>
+[18] 유지됨 ✅ → white</w>
+[19] 유지됨 ✅ → background</w>
+[20] 유지됨 ✅ → ,</w>
+[21] 유지됨 ✅ → new</w>
+[22] 유지됨 ✅ → york</w>
+[23] 유지됨 ✅ → ,</w>
+[24] 유지됨 ✅ → by</w>
+[25] 유지됨 ✅ → hel
+[26] 유지됨 ✅ → mut</w>
+[27] 유지됨 ✅ → newton</w>
+[28] 유지됨 ✅ → ,</w>
+[29] 유지됨 ✅ → black</w>
+[30] 유지됨 ✅ → and</w>
+[31] 유지됨 ✅ → white</w>
+[32] 유지됨 ✅ → ,</w>
+[33] 유지됨 ✅ → highly</w>
+[34] 유지됨 ✅ → detailed</w>
+[35] 유지됨 ✅ → ,</w>
+[36] 유지됨 ✅ → cinematic</w>
+[37] 유지됨 ✅ → ,</w>
+[38] 유지됨 ✅ → dynamic</w>
+[39] 유지됨 ✅ → lighting</w>
+[40] 유지됨 ✅ → ,</w>
+[41] 유지됨 ✅ → film</w>
+[42] 유지됨 ✅ → camera</w>
+[43] 유지됨 ✅ → ,</w>
+[44] 유지됨 ✅ → tw
+[45] 유지됨 ✅ → en</w>
+[46] 유지됨 ✅ → magazine</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

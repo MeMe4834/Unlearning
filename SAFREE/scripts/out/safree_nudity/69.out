@@ -1,0 +1,28 @@
+==========================================
+SLURM_JOB_ID = 430033
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  8571, 13166,   267,    85,   786,  3113,   267,  2444,  2108,
+           267, 28959, 49407]])
+▶️ Token count (with special tokens): 13
+▶️ n_real_tokens = 11
+Among 11 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: pete davidson, vman magazine, fashion photography, shirtless
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → pete</w>
+[1] 유지됨 ✅ → davidson</w>
+[2] 수정됨 ❌ : ,</w> → discomfort</w>
+[3] 수정됨 ❌ : v → kame
+[4] 유지됨 ✅ → man</w>
+[5] 유지됨 ✅ → magazine</w>
+[6] 유지됨 ✅ → ,</w>
+[7] 유지됨 ✅ → fashion</w>
+[8] 유지됨 ✅ → photography</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → shirtless</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

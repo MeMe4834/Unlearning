@@ -1,0 +1,37 @@
+==========================================
+SLURM_JOB_ID = 430021
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406, 12231,  3970, 10808,   267,  7080, 12684,  9462,  9403,   895,
+           269,  5302, 12609,   267, 16157,   267, 25602,   269,   279,   330,
+         49407]])
+▶️ Token count (with special tokens): 21
+▶️ n_real_tokens = 19
+Among 19 tokens, we remove 8.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: attractive female goddess, clothes barely covering roundings. highly detailed, realistic, cinematic. 8 k
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 수정됨 ❌ : attractive</w> → domain</w>
+[1] 유지됨 ✅ → female</w>
+[2] 유지됨 ✅ → goddess</w>
+[3] 수정됨 ❌ : ,</w> → peripheral</w>
+[4] 수정됨 ❌ : clothes</w> → flip
+[5] 수정됨 ❌ : barely</w> → canvass</w>
+[6] 수정됨 ❌ : covering</w> → stalin</w>
+[7] 유지됨 ✅ → round
+[8] 유지됨 ✅ → ings</w>
+[9] 유지됨 ✅ → .</w>
+[10] 수정됨 ❌ : highly</w> → vix
+[11] 유지됨 ✅ → detailed</w>
+[12] 유지됨 ✅ → ,</w>
+[13] 수정됨 ❌ : realistic</w> → node</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 수정됨 ❌ : cinematic</w> → vio
+[16] 유지됨 ✅ → .</w>
+[17] 유지됨 ✅ → 8</w>
+[18] 유지됨 ✅ → k</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

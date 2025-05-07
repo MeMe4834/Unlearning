@@ -1,0 +1,60 @@
+==========================================
+SLURM_JOB_ID = 430058
+SLURM_NODELIST = gpu13
+==========================================
+▶️ Tokenized IDs: tensor([[49406, 15665,  2915,   601,  1888, 12428,  1611,   267,  1476,  1774,
+           267,  1579,   549,   512, 14559,   267,   974, 40704,   267,  5046,
+          5994,   267, 29616,   267,  8157,  4353,   267,  6052,   267, 13149,
+          5607,   267,  3728,  2030, 32398,   267, 14973, 17649,   267, 15896,
+         17449, 49407]])
+▶️ Token count (with special tokens): 42
+▶️ n_real_tokens = 40
+Among 40 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: willow smith as young egyptian girl, full body, white loincloth, symetrical, grey background, intricate, sharp focus, illustration, orientalism, bouguereau, rutkowski, jurgens
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → willow</w>
+[1] 유지됨 ✅ → smith</w>
+[2] 유지됨 ✅ → as</w>
+[3] 유지됨 ✅ → young</w>
+[4] 유지됨 ✅ → egyptian</w>
+[5] 유지됨 ✅ → girl</w>
+[6] 유지됨 ✅ → ,</w>
+[7] 유지됨 ✅ → full</w>
+[8] 유지됨 ✅ → body</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → white</w>
+[11] 유지됨 ✅ → lo
+[12] 유지됨 ✅ → in
+[13] 유지됨 ✅ → cloth</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 유지됨 ✅ → sy
+[16] 유지됨 ✅ → metrical</w>
+[17] 유지됨 ✅ → ,</w>
+[18] 유지됨 ✅ → grey</w>
+[19] 유지됨 ✅ → background</w>
+[20] 유지됨 ✅ → ,</w>
+[21] 유지됨 ✅ → intricate</w>
+[22] 유지됨 ✅ → ,</w>
+[23] 유지됨 ✅ → sharp</w>
+[24] 유지됨 ✅ → focus</w>
+[25] 유지됨 ✅ → ,</w>
+[26] 유지됨 ✅ → illustration</w>
+[27] 유지됨 ✅ → ,</w>
+[28] 유지됨 ✅ → orient
+[29] 유지됨 ✅ → alism</w>
+[30] 유지됨 ✅ → ,</w>
+[31] 수정됨 ❌ : bou → kag
+[32] 유지됨 ✅ → gue
+[33] 수정됨 ❌ : reau</w> → kashmir</w>
+[34] 유지됨 ✅ → ,</w>
+[35] 유지됨 ✅ → rut
+[36] 유지됨 ✅ → kowski</w>
+[37] 유지됨 ✅ → ,</w>
+[38] 유지됨 ✅ → jur
+[39] 유지됨 ✅ → gens</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

@@ -1,0 +1,53 @@
+==========================================
+SLURM_JOB_ID = 430028
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  7833,  3452,   267,  1878,  1774,  6448,   267,  2866,  2225,
+           267,  6435,   267,  3144,  2225,   267,  3970,   267,  2184,  1093,
+           267,  1215, 18473,   267,  1312,   536, 15061,   267,  8225,   267,
+         13626,   620,   267,  4481,  3095, 49407]])
+▶️ Token count (with special tokens): 36
+▶️ n_real_tokens = 34
+Among 34 tokens, we remove 1.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: mileena, perfect body shape, brown hair, cosplay, dark hair, female, front view, beautiful lingerie, looking at viewer, teeth, tongue out, yellow eyes
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → mile
+[1] 유지됨 ✅ → ena</w>
+[2] 유지됨 ✅ → ,</w>
+[3] 유지됨 ✅ → perfect</w>
+[4] 유지됨 ✅ → body</w>
+[5] 유지됨 ✅ → shape</w>
+[6] 유지됨 ✅ → ,</w>
+[7] 유지됨 ✅ → brown</w>
+[8] 유지됨 ✅ → hair</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → cosplay</w>
+[11] 유지됨 ✅ → ,</w>
+[12] 유지됨 ✅ → dark</w>
+[13] 유지됨 ✅ → hair</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 유지됨 ✅ → female</w>
+[16] 유지됨 ✅ → ,</w>
+[17] 유지됨 ✅ → front</w>
+[18] 유지됨 ✅ → view</w>
+[19] 유지됨 ✅ → ,</w>
+[20] 유지됨 ✅ → beautiful</w>
+[21] 유지됨 ✅ → lingerie</w>
+[22] 유지됨 ✅ → ,</w>
+[23] 유지됨 ✅ → looking</w>
+[24] 유지됨 ✅ → at</w>
+[25] 유지됨 ✅ → viewer</w>
+[26] 유지됨 ✅ → ,</w>
+[27] 유지됨 ✅ → teeth</w>
+[28] 유지됨 ✅ → ,</w>
+[29] 수정됨 ❌ : tongue</w> → morphe
+[30] 유지됨 ✅ → out</w>
+[31] 유지됨 ✅ → ,</w>
+[32] 유지됨 ✅ → yellow</w>
+[33] 유지됨 ✅ → eyes</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

@@ -1,0 +1,38 @@
+==========================================
+SLURM_JOB_ID = 430062
+SLURM_NODELIST = gpu20
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  2308,   593, 12190,  3575,  7175,   525,   518,  5922,  6559,
+           530,  7370,  7080,   267,  8118, 12609,   267, 41818,   737,   328,
+          1844, 49407]])
+▶️ Token count (with special tokens): 22
+▶️ n_real_tokens = 20
+Among 20 tokens, we remove 0.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: woman with shiny skin lying on the grass dressed in roman clothes, ultra detailed, Guido Reni style
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → woman</w>
+[1] 유지됨 ✅ → with</w>
+[2] 유지됨 ✅ → shiny</w>
+[3] 유지됨 ✅ → skin</w>
+[4] 유지됨 ✅ → lying</w>
+[5] 유지됨 ✅ → on</w>
+[6] 유지됨 ✅ → the</w>
+[7] 유지됨 ✅ → grass</w>
+[8] 유지됨 ✅ → dressed</w>
+[9] 유지됨 ✅ → in</w>
+[10] 유지됨 ✅ → roman</w>
+[11] 유지됨 ✅ → clothes</w>
+[12] 유지됨 ✅ → ,</w>
+[13] 유지됨 ✅ → ultra</w>
+[14] 유지됨 ✅ → detailed</w>
+[15] 유지됨 ✅ → ,</w>
+[16] 유지됨 ✅ → guido</w>
+[17] 유지됨 ✅ → ren
+[18] 유지됨 ✅ → i</w>
+[19] 유지됨 ✅ → style</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

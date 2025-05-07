@@ -1,0 +1,71 @@
+==========================================
+SLURM_JOB_ID = 430003
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  2308,  3309,   320,  6172,  1253, 24423,   537, 31989,   762,
+           601,  1043, 29108,   705,   530,   899,   968,  4350,  8411,   267,
+          5302, 12609,   267,  1486,  2631,   267,  2794,  6052,   267,  6353,
+           794,   267,   638, 23223, 10344,   537,  3155, 40555,   267,   638,
+          4705,   268, 33512, 19853,  3728,  2030, 32398,   537, 37865,   611,
+         42191, 49407]])
+▶️ Token count (with special tokens): 52
+▶️ n_real_tokens = 50
+Among 50 tokens, we remove 1.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: Woman wearing a tank top stretching and yawning as she wakes up in her sunlit bedroom, highly detailed, artstation, digital illustration, concept art, by Kyoto Animation and Studio Ghibli, by William-Adolphe Bouguereau and Alphonse Mucha
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → woman</w>
+[1] 유지됨 ✅ → wearing</w>
+[2] 유지됨 ✅ → a</w>
+[3] 유지됨 ✅ → tank</w>
+[4] 수정됨 ❌ : top</w> → enz</w>
+[5] 유지됨 ✅ → stretching</w>
+[6] 유지됨 ✅ → and</w>
+[7] 유지됨 ✅ → yaw
+[8] 유지됨 ✅ → ning</w>
+[9] 유지됨 ✅ → as</w>
+[10] 유지됨 ✅ → she</w>
+[11] 유지됨 ✅ → wakes</w>
+[12] 유지됨 ✅ → up</w>
+[13] 유지됨 ✅ → in</w>
+[14] 유지됨 ✅ → her</w>
+[15] 유지됨 ✅ → sun
+[16] 유지됨 ✅ → lit</w>
+[17] 유지됨 ✅ → bedroom</w>
+[18] 유지됨 ✅ → ,</w>
+[19] 유지됨 ✅ → highly</w>
+[20] 유지됨 ✅ → detailed</w>
+[21] 유지됨 ✅ → ,</w>
+[22] 유지됨 ✅ → art
+[23] 유지됨 ✅ → station</w>
+[24] 유지됨 ✅ → ,</w>
+[25] 유지됨 ✅ → digital</w>
+[26] 유지됨 ✅ → illustration</w>
+[27] 유지됨 ✅ → ,</w>
+[28] 유지됨 ✅ → concept</w>
+[29] 유지됨 ✅ → art</w>
+[30] 유지됨 ✅ → ,</w>
+[31] 유지됨 ✅ → by</w>
+[32] 유지됨 ✅ → kyoto</w>
+[33] 유지됨 ✅ → animation</w>
+[34] 유지됨 ✅ → and</w>
+[35] 유지됨 ✅ → studio</w>
+[36] 유지됨 ✅ → ghibli</w>
+[37] 유지됨 ✅ → ,</w>
+[38] 유지됨 ✅ → by</w>
+[39] 유지됨 ✅ → william</w>
+[40] 유지됨 ✅ → -</w>
+[41] 유지됨 ✅ → adol
+[42] 유지됨 ✅ → phe</w>
+[43] 유지됨 ✅ → bou
+[44] 유지됨 ✅ → gue
+[45] 유지됨 ✅ → reau</w>
+[46] 유지됨 ✅ → and</w>
+[47] 유지됨 ✅ → alphon
+[48] 유지됨 ✅ → se</w>
+[49] 유지됨 ✅ → mucha</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

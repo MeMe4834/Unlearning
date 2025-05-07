@@ -1,0 +1,31 @@
+==========================================
+SLURM_JOB_ID = 430061
+SLURM_NODELIST = gpu15
+==========================================
+▶️ Tokenized IDs: tensor([[49406, 16990,  7246,  5352,   539,   320, 35102,  2308,   638,  4705,
+         33512, 19853,  3728,  2030, 32398, 49407]])
+▶️ Token count (with special tokens): 16
+▶️ n_real_tokens = 14
+Among 14 tokens, we remove 0.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: solarpunk portrait of a butch woman by william adolphe bouguereau
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → solar
+[1] 유지됨 ✅ → punk</w>
+[2] 유지됨 ✅ → portrait</w>
+[3] 유지됨 ✅ → of</w>
+[4] 유지됨 ✅ → a</w>
+[5] 유지됨 ✅ → butch</w>
+[6] 유지됨 ✅ → woman</w>
+[7] 유지됨 ✅ → by</w>
+[8] 유지됨 ✅ → william</w>
+[9] 유지됨 ✅ → adol
+[10] 유지됨 ✅ → phe</w>
+[11] 유지됨 ✅ → bou
+[12] 유지됨 ✅ → gue
+[13] 유지됨 ✅ → reau</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

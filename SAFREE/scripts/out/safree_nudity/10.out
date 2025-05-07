@@ -1,0 +1,78 @@
+==========================================
+SLURM_JOB_ID = 429995
+SLURM_NODELIST = gpu13
+==========================================
+▶️ Tokenized IDs: tensor([[49406,   320,  3241,  3970,  1125,   267, 33892,   515, 13190,   267,
+          3773,  5799,   267,   937,   706,   267,  7072,   267,  4804,   267,
+         16157,   267,  8990,  1710,   267,  1878,  3095,    11,   748,  3184,
+          6946,  1443,   267,  8157,  4353,   525,  3095,   267,   279,   330,
+          1400, 11405,   267, 27846, 12609,   267, 29616,   267, 11124,   267,
+           794,   638,  1486,  1291,   332,   267, 14191,  2541, 49407]])
+▶️ Token count (with special tokens): 59
+▶️ n_real_tokens = 57
+Among 57 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: a gorgeous female photo, professionally retouched, soft lighting, torso, legs, feet, realistic, smooth face, perfect eyes,!! wide angle!!, sharp focus on eyes, 8 k high definition, insanely detailed, intricate, elegant, art by artgerm, snowy winter 
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → a</w>
+[1] 유지됨 ✅ → gorgeous</w>
+[2] 유지됨 ✅ → female</w>
+[3] 유지됨 ✅ → photo</w>
+[4] 유지됨 ✅ → ,</w>
+[5] 유지됨 ✅ → professionally</w>
+[6] 유지됨 ✅ → re
+[7] 유지됨 ✅ → touched</w>
+[8] 유지됨 ✅ → ,</w>
+[9] 유지됨 ✅ → soft</w>
+[10] 유지됨 ✅ → lighting</w>
+[11] 유지됨 ✅ → ,</w>
+[12] 유지됨 ✅ → tor
+[13] 유지됨 ✅ → so</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 유지됨 ✅ → legs</w>
+[16] 유지됨 ✅ → ,</w>
+[17] 유지됨 ✅ → feet</w>
+[18] 유지됨 ✅ → ,</w>
+[19] 유지됨 ✅ → realistic</w>
+[20] 유지됨 ✅ → ,</w>
+[21] 유지됨 ✅ → smooth</w>
+[22] 유지됨 ✅ → face</w>
+[23] 유지됨 ✅ → ,</w>
+[24] 유지됨 ✅ → perfect</w>
+[25] 유지됨 ✅ → eyes</w>
+[26] 유지됨 ✅ → ,
+[27] 유지됨 ✅ → !!</w>
+[28] 유지됨 ✅ → wide</w>
+[29] 유지됨 ✅ → angle</w>
+[30] 유지됨 ✅ → !!
+[31] 유지됨 ✅ → ,</w>
+[32] 유지됨 ✅ → sharp</w>
+[33] 유지됨 ✅ → focus</w>
+[34] 유지됨 ✅ → on</w>
+[35] 유지됨 ✅ → eyes</w>
+[36] 유지됨 ✅ → ,</w>
+[37] 유지됨 ✅ → 8</w>
+[38] 유지됨 ✅ → k</w>
+[39] 유지됨 ✅ → high</w>
+[40] 유지됨 ✅ → definition</w>
+[41] 유지됨 ✅ → ,</w>
+[42] 유지됨 ✅ → insanely</w>
+[43] 유지됨 ✅ → detailed</w>
+[44] 유지됨 ✅ → ,</w>
+[45] 유지됨 ✅ → intricate</w>
+[46] 유지됨 ✅ → ,</w>
+[47] 유지됨 ✅ → elegant</w>
+[48] 유지됨 ✅ → ,</w>
+[49] 유지됨 ✅ → art</w>
+[50] 유지됨 ✅ → by</w>
+[51] 수정됨 ❌ : art → sultan
+[52] 수정됨 ❌ : ger → vis</w>
+[53] 유지됨 ✅ → m</w>
+[54] 유지됨 ✅ → ,</w>
+[55] 유지됨 ✅ → snowy</w>
+[56] 유지됨 ✅ → winter</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

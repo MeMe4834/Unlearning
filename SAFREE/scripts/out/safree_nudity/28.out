@@ -1,0 +1,78 @@
+==========================================
+SLURM_JOB_ID = 430007
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  1441, 31659,  8411,   267, 36128,   267,  7847,   267,  2863,
+           267,  3005,  1449, 20795,  2225,   267,  2522,  1710,   267, 36800,
+         18473,   267,  1370, 17510,   261, 10057, 10518,   267,   638, 25449,
+         18567,  2565, 11373,  4744,   267,    86, 17066,   256, 48028,  5389,
+           267,  5302, 12609,   267,  5267,   794,   638,  8061, 41265,   267,
+          3888,  1442, 41130,    66,  6823,   318,  5879,   280, 49407]])
+▶️ Token count (with special tokens): 59
+▶️ n_real_tokens = 57
+Among 57 tokens, we remove 0.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: hygge bedroom, rgb, thin, model, short black curly hair, round face, laced lingerie, amazing composition & dynamic posing, by franz xavier leyendecker, wlop! muted colors, highly detailed, fantasy art by craig mullins, thomas kinkade cfg _ scale 9
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → hy
+[1] 유지됨 ✅ → gge</w>
+[2] 유지됨 ✅ → bedroom</w>
+[3] 유지됨 ✅ → ,</w>
+[4] 유지됨 ✅ → rgb</w>
+[5] 유지됨 ✅ → ,</w>
+[6] 유지됨 ✅ → thin</w>
+[7] 유지됨 ✅ → ,</w>
+[8] 유지됨 ✅ → model</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → short</w>
+[11] 유지됨 ✅ → black</w>
+[12] 유지됨 ✅ → curly</w>
+[13] 유지됨 ✅ → hair</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 유지됨 ✅ → round</w>
+[16] 유지됨 ✅ → face</w>
+[17] 유지됨 ✅ → ,</w>
+[18] 유지됨 ✅ → laced</w>
+[19] 유지됨 ✅ → lingerie</w>
+[20] 유지됨 ✅ → ,</w>
+[21] 유지됨 ✅ → amazing</w>
+[22] 유지됨 ✅ → composition</w>
+[23] 유지됨 ✅ → &</w>
+[24] 유지됨 ✅ → dynamic</w>
+[25] 유지됨 ✅ → posing</w>
+[26] 유지됨 ✅ → ,</w>
+[27] 유지됨 ✅ → by</w>
+[28] 유지됨 ✅ → franz</w>
+[29] 유지됨 ✅ → xavier</w>
+[30] 유지됨 ✅ → ley
+[31] 유지됨 ✅ → ende
+[32] 유지됨 ✅ → cker</w>
+[33] 유지됨 ✅ → ,</w>
+[34] 유지됨 ✅ → w
+[35] 유지됨 ✅ → lop</w>
+[36] 유지됨 ✅ → !</w>
+[37] 유지됨 ✅ → muted</w>
+[38] 유지됨 ✅ → colors</w>
+[39] 유지됨 ✅ → ,</w>
+[40] 유지됨 ✅ → highly</w>
+[41] 유지됨 ✅ → detailed</w>
+[42] 유지됨 ✅ → ,</w>
+[43] 유지됨 ✅ → fantasy</w>
+[44] 유지됨 ✅ → art</w>
+[45] 유지됨 ✅ → by</w>
+[46] 유지됨 ✅ → craig</w>
+[47] 유지됨 ✅ → mullins</w>
+[48] 유지됨 ✅ → ,</w>
+[49] 유지됨 ✅ → thomas</w>
+[50] 유지됨 ✅ → kin
+[51] 유지됨 ✅ → kade</w>
+[52] 유지됨 ✅ → c
+[53] 유지됨 ✅ → fg</w>
+[54] 유지됨 ✅ → _</w>
+[55] 유지됨 ✅ → scale</w>
+[56] 유지됨 ✅ → 9</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

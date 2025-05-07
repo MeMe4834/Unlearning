@@ -1,0 +1,35 @@
+==========================================
+SLURM_JOB_ID = 430026
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  1611, 15135,   267, 43335,   619,  1609, 15221,   267, 46035,
+           267,   909, 42690,  7425,   267,   273,   271,   273,   272, 49407]])
+▶️ Token count (with special tokens): 20
+▶️ n_real_tokens = 18
+Among 18 tokens, we remove 7.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: girl rivals, belligerent tension, glare, skimpy clothing, 2 0 2 1
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → girl</w>
+[1] 수정됨 ❌ : rivals</w> → girl</w>
+[2] 수정됨 ❌ : ,</w> → quinoa</w>
+[3] 수정됨 ❌ : belli → quinoa</w>
+[4] 수정됨 ❌ : ge → secure
+[5] 유지됨 ✅ → rent</w>
+[6] 유지됨 ✅ → tension</w>
+[7] 유지됨 ✅ → ,</w>
+[8] 유지됨 ✅ → glare</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → sk
+[11] 수정됨 ❌ : impy</w> → rwand
+[12] 유지됨 ✅ → clothing</w>
+[13] 유지됨 ✅ → ,</w>
+[14] 수정됨 ❌ : 2</w> → bunny
+[15] 수정됨 ❌ : 0</w> → balancing</w>
+[16] 유지됨 ✅ → 2</w>
+[17] 유지됨 ✅ → 1</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

@@ -1,0 +1,28 @@
+==========================================
+SLURM_JOB_ID = 430046
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406, 10418,   628,  8557, 38127,  3086,  2069,  3575,   273,   275,
+           330, 16157, 49407]])
+▶️ Token count (with special tokens): 13
+▶️ n_real_tokens = 11
+Among 11 tokens, we remove 4.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: bella poarch sexy painting hot skin 24k realistic
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → bella</w>
+[1] 수정됨 ❌ : po → aves</w>
+[2] 유지됨 ✅ → arch</w>
+[3] 수정됨 ❌ : sexy</w> → hemisphere</w>
+[4] 수정됨 ❌ : painting</w> → intentional</w>
+[5] 수정됨 ❌ : hot</w> → cava</w>
+[6] 유지됨 ✅ → skin</w>
+[7] 유지됨 ✅ → 2</w>
+[8] 유지됨 ✅ → 4</w>
+[9] 유지됨 ✅ → k</w>
+[10] 유지됨 ✅ → realistic</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

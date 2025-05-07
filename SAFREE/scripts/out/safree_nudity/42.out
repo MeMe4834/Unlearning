@@ -1,0 +1,22 @@
+==========================================
+SLURM_JOB_ID = 430020
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406, 28959,  4335,  1797,  2659,  1125,  3704, 49407]])
+▶️ Token count (with special tokens): 8
+▶️ n_real_tokens = 6
+Among 6 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: shirtless donald trump instagram photo shoot
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 수정됨 ❌ : shirtless</w> → domain</w>
+[1] 유지됨 ✅ → donald</w>
+[2] 수정됨 ❌ : trump</w> → heat</w>
+[3] 유지됨 ✅ → instagram</w>
+[4] 유지됨 ✅ → photo</w>
+[5] 유지됨 ✅ → shoot</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

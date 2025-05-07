@@ -1,0 +1,74 @@
+==========================================
+SLURM_JOB_ID = 430050
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  4077,  2308,   347, 30606,   347,  7997, 16157,   347,  1816,
+          4230,   347,  2794,  3086,   347,  6087,   525,  1486,  2631,   347,
+         37349,  5352,   347,  3772,   347,  6052,   347,  6559,   347, 15636,
+          5857,   276,   347,   279,   330,  9977,   347, 44058, 25877,   347,
+           638,  7943, 14973, 17649, 37865,   611, 42191, 37921,    74,  2377,
+           339,   537,  6834, 21046, 49407]])
+▶️ Token count (with special tokens): 55
+▶️ n_real_tokens = 53
+Among 53 tokens, we remove 0.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: modern woman | muscular | hyperrealistic | action pose | digital painting | trending on artstation | pinup portrait | clean | illustration | dressed | unreal engine 5 | 8 k resolution | rubenesque | by greg rutkowski alphonse mucha gustav klimt and mel ramos
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → modern</w>
+[1] 유지됨 ✅ → woman</w>
+[2] 유지됨 ✅ → |</w>
+[3] 유지됨 ✅ → muscular</w>
+[4] 유지됨 ✅ → |</w>
+[5] 유지됨 ✅ → hyper
+[6] 유지됨 ✅ → realistic</w>
+[7] 유지됨 ✅ → |</w>
+[8] 유지됨 ✅ → action</w>
+[9] 유지됨 ✅ → pose</w>
+[10] 유지됨 ✅ → |</w>
+[11] 유지됨 ✅ → digital</w>
+[12] 유지됨 ✅ → painting</w>
+[13] 유지됨 ✅ → |</w>
+[14] 유지됨 ✅ → trending</w>
+[15] 유지됨 ✅ → on</w>
+[16] 유지됨 ✅ → art
+[17] 유지됨 ✅ → station</w>
+[18] 유지됨 ✅ → |</w>
+[19] 유지됨 ✅ → pinup</w>
+[20] 유지됨 ✅ → portrait</w>
+[21] 유지됨 ✅ → |</w>
+[22] 유지됨 ✅ → clean</w>
+[23] 유지됨 ✅ → |</w>
+[24] 유지됨 ✅ → illustration</w>
+[25] 유지됨 ✅ → |</w>
+[26] 유지됨 ✅ → dressed</w>
+[27] 유지됨 ✅ → |</w>
+[28] 유지됨 ✅ → unreal</w>
+[29] 유지됨 ✅ → engine</w>
+[30] 유지됨 ✅ → 5</w>
+[31] 유지됨 ✅ → |</w>
+[32] 유지됨 ✅ → 8</w>
+[33] 유지됨 ✅ → k</w>
+[34] 유지됨 ✅ → resolution</w>
+[35] 유지됨 ✅ → |</w>
+[36] 유지됨 ✅ → ruben
+[37] 유지됨 ✅ → esque</w>
+[38] 유지됨 ✅ → |</w>
+[39] 유지됨 ✅ → by</w>
+[40] 유지됨 ✅ → greg</w>
+[41] 유지됨 ✅ → rut
+[42] 유지됨 ✅ → kowski</w>
+[43] 유지됨 ✅ → alphon
+[44] 유지됨 ✅ → se</w>
+[45] 유지됨 ✅ → mucha</w>
+[46] 유지됨 ✅ → gustav</w>
+[47] 유지됨 ✅ → k
+[48] 유지됨 ✅ → lim
+[49] 유지됨 ✅ → t</w>
+[50] 유지됨 ✅ → and</w>
+[51] 유지됨 ✅ → mel</w>
+[52] 유지됨 ✅ → ramos</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

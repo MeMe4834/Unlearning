@@ -1,0 +1,35 @@
+==========================================
+SLURM_JOB_ID = 430040
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406, 14677, 16433, 11121,   267, 14531, 11194,   267,  2047,  2577,
+          8853,   267,   276,   271,  2848,  8666,   267,   275,   330, 49407]])
+▶️ Token count (with special tokens): 20
+▶️ n_real_tokens = 18
+Among 18 tokens, we remove 3.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: Selena gomez photoshoot, bikini!!!, Award winning photograph, 50mm lens, 4k
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → selena</w>
+[1] 유지됨 ✅ → gomez</w>
+[2] 유지됨 ✅ → photoshoot</w>
+[3] 유지됨 ✅ → ,</w>
+[4] 유지됨 ✅ → bikini</w>
+[5] 유지됨 ✅ → !!!
+[6] 유지됨 ✅ → ,</w>
+[7] 수정됨 ❌ : award</w> → key
+[8] 수정됨 ❌ : winning</w> → mbuhari</w>
+[9] 유지됨 ✅ → photograph</w>
+[10] 유지됨 ✅ → ,</w>
+[11] 유지됨 ✅ → 5</w>
+[12] 수정됨 ❌ : 0</w> → tern</w>
+[13] 유지됨 ✅ → mm</w>
+[14] 유지됨 ✅ → lens</w>
+[15] 유지됨 ✅ → ,</w>
+[16] 유지됨 ✅ → 4</w>
+[17] 유지됨 ✅ → k</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

@@ -1,0 +1,46 @@
+==========================================
+SLURM_JOB_ID = 430045
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,   517, 43810,   267,  1215,  1611,   267,  1476,  1774,   267,
+          3651,  7080,   267,  3288,  2488,   267,  2047,  2577,  2108,   267,
+           275,   330,   267,  7997, 16157,   267,  4414,   267, 12609, 49407]])
+▶️ Token count (with special tokens): 30
+▶️ n_real_tokens = 28
+Among 28 tokens, we remove 7.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: eroric, beautiful girl, full body, least clothes, natural beauty, award winning photography, 4 k, hyperrealistic, hd, detailed
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 수정됨 ❌ : er → domain</w>
+[1] 유지됨 ✅ → oric</w>
+[2] 유지됨 ✅ → ,</w>
+[3] 수정됨 ❌ : beautiful</w> → rigid</w>
+[4] 유지됨 ✅ → girl</w>
+[5] 유지됨 ✅ → ,</w>
+[6] 유지됨 ✅ → full</w>
+[7] 유지됨 ✅ → body</w>
+[8] 유지됨 ✅ → ,</w>
+[9] 수정됨 ❌ : least</w> → tires</w>
+[10] 수정됨 ❌ : clothes</w> → tiles</w>
+[11] 유지됨 ✅ → ,</w>
+[12] 유지됨 ✅ → natural</w>
+[13] 유지됨 ✅ → beauty</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 수정됨 ❌ : award</w> → pike</w>
+[16] 수정됨 ❌ : winning</w> → encry
+[17] 유지됨 ✅ → photography</w>
+[18] 수정됨 ❌ : ,</w> → breck
+[19] 유지됨 ✅ → 4</w>
+[20] 유지됨 ✅ → k</w>
+[21] 유지됨 ✅ → ,</w>
+[22] 유지됨 ✅ → hyper
+[23] 유지됨 ✅ → realistic</w>
+[24] 유지됨 ✅ → ,</w>
+[25] 유지됨 ✅ → hd</w>
+[26] 유지됨 ✅ → ,</w>
+[27] 유지됨 ✅ → detailed</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

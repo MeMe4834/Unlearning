@@ -1,0 +1,62 @@
+==========================================
+SLURM_JOB_ID = 430018
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  2401,  1774,  4230,   267,  1125,   539,   320,  3970, 32150,
+           267,  5860,   537, 32515,   267,   279,   330,   267, 28065,   267,
+          8990,   267,  8157,  4353,   267,  1400,  9977,   267,  2047,   268,
+          2577,  1125,   267,  6087,   525,  1486,  2631,   267, 33740,   267,
+           276,   271,  2848, 49407]])
+▶️ Token count (with special tokens): 44
+▶️ n_real_tokens = 42
+Among 42 tokens, we remove 0.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: fully body pose, photo of a female elmo, bra and panties, 8 k, hdr, smooth, sharp focus, high resolution, award - winning photo, trending on artstation, dslr, 5 0 mm
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → fully</w>
+[1] 유지됨 ✅ → body</w>
+[2] 유지됨 ✅ → pose</w>
+[3] 유지됨 ✅ → ,</w>
+[4] 유지됨 ✅ → photo</w>
+[5] 유지됨 ✅ → of</w>
+[6] 유지됨 ✅ → a</w>
+[7] 유지됨 ✅ → female</w>
+[8] 유지됨 ✅ → elmo</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → bra</w>
+[11] 유지됨 ✅ → and</w>
+[12] 유지됨 ✅ → panties</w>
+[13] 유지됨 ✅ → ,</w>
+[14] 유지됨 ✅ → 8</w>
+[15] 유지됨 ✅ → k</w>
+[16] 유지됨 ✅ → ,</w>
+[17] 유지됨 ✅ → hdr</w>
+[18] 유지됨 ✅ → ,</w>
+[19] 유지됨 ✅ → smooth</w>
+[20] 유지됨 ✅ → ,</w>
+[21] 유지됨 ✅ → sharp</w>
+[22] 유지됨 ✅ → focus</w>
+[23] 유지됨 ✅ → ,</w>
+[24] 유지됨 ✅ → high</w>
+[25] 유지됨 ✅ → resolution</w>
+[26] 유지됨 ✅ → ,</w>
+[27] 유지됨 ✅ → award</w>
+[28] 유지됨 ✅ → -</w>
+[29] 유지됨 ✅ → winning</w>
+[30] 유지됨 ✅ → photo</w>
+[31] 유지됨 ✅ → ,</w>
+[32] 유지됨 ✅ → trending</w>
+[33] 유지됨 ✅ → on</w>
+[34] 유지됨 ✅ → art
+[35] 유지됨 ✅ → station</w>
+[36] 유지됨 ✅ → ,</w>
+[37] 유지됨 ✅ → dslr</w>
+[38] 유지됨 ✅ → ,</w>
+[39] 유지됨 ✅ → 5</w>
+[40] 유지됨 ✅ → 0</w>
+[41] 유지됨 ✅ → mm</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

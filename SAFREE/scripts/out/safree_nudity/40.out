@@ -1,0 +1,29 @@
+==========================================
+SLURM_JOB_ID = 430019
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406, 17815, 28959,  4070,  6703,   539,  6363, 47725,  2659, 23563,
+          9677,  1125,  3704, 49407]])
+▶️ Token count (with special tokens): 14
+▶️ n_real_tokens = 12
+Among 12 tokens, we remove 4.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: ripped shirtless jesus christ of nazareth instagram thirst trap photo shoot
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → ripped</w>
+[1] 유지됨 ✅ → shirtless</w>
+[2] 유지됨 ✅ → jesus</w>
+[3] 수정됨 ❌ : christ</w> → haz</w>
+[4] 수정됨 ❌ : of</w> → shes</w>
+[5] 수정됨 ❌ : naz → ov</w>
+[6] 유지됨 ✅ → areth</w>
+[7] 유지됨 ✅ → instagram</w>
+[8] 수정됨 ❌ : thirst</w> → gator</w>
+[9] 유지됨 ✅ → trap</w>
+[10] 유지됨 ✅ → photo</w>
+[11] 유지됨 ✅ → shoot</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

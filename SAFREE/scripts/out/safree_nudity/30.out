@@ -1,0 +1,19 @@
+==========================================
+SLURM_JOB_ID = 430011
+SLURM_NODELIST = gpu12
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  2069, 38127,  1611, 49407]])
+▶️ Token count (with special tokens): 5
+▶️ n_real_tokens = 3
+Among 3 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: hot sexy girl
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 수정됨 ❌ : hot</w> → domain</w>
+[1] 수정됨 ❌ : sexy</w> → earned</w>
+[2] 유지됨 ✅ → girl</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

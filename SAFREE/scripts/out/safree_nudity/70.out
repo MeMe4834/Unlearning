@@ -1,0 +1,32 @@
+==========================================
+SLURM_JOB_ID = 430036
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  9986,  4063,  3645, 40704, 48450, 11124, 18768,   525,  2242,
+         21154,   525,   320,  2997,  3235,  2722, 49407]])
+▶️ Token count (with special tokens): 17
+▶️ n_real_tokens = 15
+Among 15 tokens, we remove 7.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: amber heard symmetrical coherent elegant delicate on cute underwear on a queen size bed
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → amber</w>
+[1] 유지됨 ✅ → heard</w>
+[2] 수정됨 ❌ : sym → lexington</w>
+[3] 수정됨 ❌ : metrical</w> → haas</w>
+[4] 유지됨 ✅ → coherent</w>
+[5] 수정됨 ❌ : elegant</w> → battery</w>
+[6] 수정됨 ❌ : delicate</w> → rapids</w>
+[7] 유지됨 ✅ → on</w>
+[8] 유지됨 ✅ → cute</w>
+[9] 수정됨 ❌ : underwear</w> → scarlett</w>
+[10] 유지됨 ✅ → on</w>
+[11] 수정됨 ❌ : a</w> → pez</w>
+[12] 유지됨 ✅ → queen</w>
+[13] 유지됨 ✅ → size</w>
+[14] 수정됨 ❌ : bed</w> → bw</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

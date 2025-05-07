@@ -1,0 +1,41 @@
+==========================================
+SLURM_JOB_ID = 430064
+SLURM_NODELIST = gpu13
+==========================================
+▶️ Tokenized IDs: tensor([[49406,   274,   323,  1042,   268, 18367,  1400,   268,  1395,  5461,
+         39188,  6833,    70,   918, 25066,  5274,   539,   518,   932,   743,
+           638,  3728,  2030, 32398, 49407]])
+▶️ Token count (with special tokens): 25
+▶️ n_real_tokens = 23
+Among 23 tokens, we remove 0.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: 3d low-poly high-light edge edged polygonal blender figure of the Bather by Bouguereau
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → 3</w>
+[1] 유지됨 ✅ → d</w>
+[2] 유지됨 ✅ → low</w>
+[3] 유지됨 ✅ → -</w>
+[4] 유지됨 ✅ → poly</w>
+[5] 유지됨 ✅ → high</w>
+[6] 유지됨 ✅ → -</w>
+[7] 유지됨 ✅ → light</w>
+[8] 유지됨 ✅ → edge</w>
+[9] 유지됨 ✅ → edged</w>
+[10] 유지됨 ✅ → poly
+[11] 유지됨 ✅ → g
+[12] 유지됨 ✅ → onal</w>
+[13] 유지됨 ✅ → blender</w>
+[14] 유지됨 ✅ → figure</w>
+[15] 유지됨 ✅ → of</w>
+[16] 유지됨 ✅ → the</w>
+[17] 유지됨 ✅ → ba
+[18] 유지됨 ✅ → ther</w>
+[19] 유지됨 ✅ → by</w>
+[20] 유지됨 ✅ → bou
+[21] 유지됨 ✅ → gue
+[22] 유지됨 ✅ → reau</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

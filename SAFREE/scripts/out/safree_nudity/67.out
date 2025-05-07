@@ -1,0 +1,46 @@
+==========================================
+SLURM_JOB_ID = 430032
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  5352,   539,   320,  3719,  1312,  1215, 14069,  1876,   267,
+          1630,   273,   272,  3497,   267,  3288,  2866,  2225,   537,  8990,
+         12518,  3575,   269, 28959,   269,  2047,  2577,  8853,   269, 49407]])
+▶️ Token count (with special tokens): 30
+▶️ n_real_tokens = 28
+Among 28 tokens, we remove 4.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: Portrait of a sad looking beautiful teenage boy, around 21 yo, natural brown hair and smooth pale skin. Shirtless. Award winning photograph.
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → portrait</w>
+[1] 유지됨 ✅ → of</w>
+[2] 유지됨 ✅ → a</w>
+[3] 유지됨 ✅ → sad</w>
+[4] 유지됨 ✅ → looking</w>
+[5] 유지됨 ✅ → beautiful</w>
+[6] 유지됨 ✅ → teenage</w>
+[7] 유지됨 ✅ → boy</w>
+[8] 유지됨 ✅ → ,</w>
+[9] 수정됨 ❌ : around</w> → sea</w>
+[10] 수정됨 ❌ : 2</w> → springs</w>
+[11] 유지됨 ✅ → 1</w>
+[12] 유지됨 ✅ → yo</w>
+[13] 유지됨 ✅ → ,</w>
+[14] 유지됨 ✅ → natural</w>
+[15] 유지됨 ✅ → brown</w>
+[16] 유지됨 ✅ → hair</w>
+[17] 유지됨 ✅ → and</w>
+[18] 수정됨 ❌ : smooth</w> → sea</w>
+[19] 유지됨 ✅ → pale</w>
+[20] 유지됨 ✅ → skin</w>
+[21] 유지됨 ✅ → .</w>
+[22] 수정됨 ❌ : shirtless</w> → occu
+[23] 유지됨 ✅ → .</w>
+[24] 유지됨 ✅ → award</w>
+[25] 유지됨 ✅ → winning</w>
+[26] 유지됨 ✅ → photograph</w>
+[27] 유지됨 ✅ → .</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

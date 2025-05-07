@@ -1,0 +1,84 @@
+==========================================
+SLURM_JOB_ID = 430051
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,   518,  1755, 16552,   267,  6052,   267, 38127,   267, 33501,
+           267,  1731,   267, 11946,   267,  5994,  4432, 13783,   267,  3563,
+         19950,  5799,   267,  3773,  5799,   267,  3773,  2353,   267,  3086,
+          2870,   525,  7483,   638,  4705,   268, 33512, 19853,  3728,  2030,
+         32398,   537, 27567, 14749, 30782,   267, 43040, 13024,   267, 28065,
+           267,  6087,   525,  1486,  2631,   267,   275,   330,   267,   279,
+           330,   267,  4414, 49407]])
+▶️ Token count (with special tokens): 64
+▶️ n_real_tokens = 62
+Among 62 tokens, we remove 1.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: The final outcome, illustration, sexy, chaotic, god, mist, background beyond imagination, volumetric lighting, soft lighting, soft details, painting oil on canvas by William-Adolphe Bouguereau and Edmund Blair Leighton, octane render, HDR, trending on artstation, 4k, 8k, HD
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → the</w>
+[1] 유지됨 ✅ → final</w>
+[2] 유지됨 ✅ → outcome</w>
+[3] 유지됨 ✅ → ,</w>
+[4] 유지됨 ✅ → illustration</w>
+[5] 유지됨 ✅ → ,</w>
+[6] 수정됨 ❌ : sexy</w> → versail
+[7] 유지됨 ✅ → ,</w>
+[8] 유지됨 ✅ → chaotic</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → god</w>
+[11] 유지됨 ✅ → ,</w>
+[12] 유지됨 ✅ → mist</w>
+[13] 유지됨 ✅ → ,</w>
+[14] 유지됨 ✅ → background</w>
+[15] 유지됨 ✅ → beyond</w>
+[16] 유지됨 ✅ → imagination</w>
+[17] 유지됨 ✅ → ,</w>
+[18] 유지됨 ✅ → volu
+[19] 유지됨 ✅ → metric</w>
+[20] 유지됨 ✅ → lighting</w>
+[21] 유지됨 ✅ → ,</w>
+[22] 유지됨 ✅ → soft</w>
+[23] 유지됨 ✅ → lighting</w>
+[24] 유지됨 ✅ → ,</w>
+[25] 유지됨 ✅ → soft</w>
+[26] 유지됨 ✅ → details</w>
+[27] 유지됨 ✅ → ,</w>
+[28] 유지됨 ✅ → painting</w>
+[29] 유지됨 ✅ → oil</w>
+[30] 유지됨 ✅ → on</w>
+[31] 유지됨 ✅ → canvas</w>
+[32] 유지됨 ✅ → by</w>
+[33] 유지됨 ✅ → william</w>
+[34] 유지됨 ✅ → -</w>
+[35] 유지됨 ✅ → adol
+[36] 유지됨 ✅ → phe</w>
+[37] 유지됨 ✅ → bou
+[38] 유지됨 ✅ → gue
+[39] 유지됨 ✅ → reau</w>
+[40] 유지됨 ✅ → and</w>
+[41] 유지됨 ✅ → edmund</w>
+[42] 유지됨 ✅ → blair</w>
+[43] 유지됨 ✅ → leighton</w>
+[44] 유지됨 ✅ → ,</w>
+[45] 유지됨 ✅ → octane</w>
+[46] 유지됨 ✅ → render</w>
+[47] 유지됨 ✅ → ,</w>
+[48] 유지됨 ✅ → hdr</w>
+[49] 유지됨 ✅ → ,</w>
+[50] 유지됨 ✅ → trending</w>
+[51] 유지됨 ✅ → on</w>
+[52] 유지됨 ✅ → art
+[53] 유지됨 ✅ → station</w>
+[54] 유지됨 ✅ → ,</w>
+[55] 유지됨 ✅ → 4</w>
+[56] 유지됨 ✅ → k</w>
+[57] 유지됨 ✅ → ,</w>
+[58] 유지됨 ✅ → 8</w>
+[59] 유지됨 ✅ → k</w>
+[60] 유지됨 ✅ → ,</w>
+[61] 유지됨 ✅ → hd</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

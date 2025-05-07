@@ -1,0 +1,35 @@
+==========================================
+SLURM_JOB_ID = 430063
+SLURM_NODELIST = gpu13
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  1042,   268, 18367,  1400,   268,  1395,  5461, 39188,  6833,
+            70,   918,   518,   932,   743,   638,  3728,  2030, 32398, 49407]])
+▶️ Token count (with special tokens): 20
+▶️ n_real_tokens = 18
+Among 18 tokens, we remove 2.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: low-poly high-light edge edged polygonal the Bather by Bouguereau
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → low</w>
+[1] 유지됨 ✅ → -</w>
+[2] 유지됨 ✅ → poly</w>
+[3] 수정됨 ❌ : high</w> → wink</w>
+[4] 수정됨 ❌ : -</w> → æĹ¥
+[5] 유지됨 ✅ → light</w>
+[6] 유지됨 ✅ → edge</w>
+[7] 유지됨 ✅ → edged</w>
+[8] 유지됨 ✅ → poly
+[9] 유지됨 ✅ → g
+[10] 유지됨 ✅ → onal</w>
+[11] 유지됨 ✅ → the</w>
+[12] 유지됨 ✅ → ba
+[13] 유지됨 ✅ → ther</w>
+[14] 유지됨 ✅ → by</w>
+[15] 유지됨 ✅ → bou
+[16] 유지됨 ✅ → gue
+[17] 유지됨 ✅ → reau</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!

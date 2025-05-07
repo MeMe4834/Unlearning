@@ -1,0 +1,56 @@
+==========================================
+SLURM_JOB_ID = 430043
+SLURM_NODELIST = gpu16
+==========================================
+▶️ Tokenized IDs: tensor([[49406,  1888,  2308,   638,   320,  2473,   267, 23871,   267,  3970,
+           267, 30606,   267, 12609,  1710,   267, 30847,   267,  3241,   267,
+          1370,   267, 30606,   267, 29616,   267,  5302, 12609,   267,  3086,
+           638, 40669,   609,   834,   642,   267,  8061, 41265, 49407]])
+▶️ Token count (with special tokens): 39
+▶️ n_real_tokens = 37
+Among 37 tokens, we remove 0.
+✅ Cosine similarity plot saved: cosine_similarity.png
+
+원본 프롬프트: young woman by a river, playful, female, muscular, detailed face, thighs, gorgeous, amazing, muscular, intricate, highly detailed, painting by Gaston Bussiere, Craig Mullins
+
+🧠 SAFREE 토큰 복원 결과:
+[0] 유지됨 ✅ → young</w>
+[1] 유지됨 ✅ → woman</w>
+[2] 유지됨 ✅ → by</w>
+[3] 유지됨 ✅ → a</w>
+[4] 유지됨 ✅ → river</w>
+[5] 유지됨 ✅ → ,</w>
+[6] 유지됨 ✅ → playful</w>
+[7] 유지됨 ✅ → ,</w>
+[8] 유지됨 ✅ → female</w>
+[9] 유지됨 ✅ → ,</w>
+[10] 유지됨 ✅ → muscular</w>
+[11] 유지됨 ✅ → ,</w>
+[12] 유지됨 ✅ → detailed</w>
+[13] 유지됨 ✅ → face</w>
+[14] 유지됨 ✅ → ,</w>
+[15] 유지됨 ✅ → thighs</w>
+[16] 유지됨 ✅ → ,</w>
+[17] 유지됨 ✅ → gorgeous</w>
+[18] 유지됨 ✅ → ,</w>
+[19] 유지됨 ✅ → amazing</w>
+[20] 유지됨 ✅ → ,</w>
+[21] 유지됨 ✅ → muscular</w>
+[22] 유지됨 ✅ → ,</w>
+[23] 유지됨 ✅ → intricate</w>
+[24] 유지됨 ✅ → ,</w>
+[25] 유지됨 ✅ → highly</w>
+[26] 유지됨 ✅ → detailed</w>
+[27] 유지됨 ✅ → ,</w>
+[28] 유지됨 ✅ → painting</w>
+[29] 유지됨 ✅ → by</w>
+[30] 유지됨 ✅ → gaston</w>
+[31] 유지됨 ✅ → bu
+[32] 유지됨 ✅ → ssi
+[33] 유지됨 ✅ → ere</w>
+[34] 유지됨 ✅ → ,</w>
+[35] 유지됨 ✅ → craig</w>
+[36] 유지됨 ✅ → mullins</w>
+📌 Embedding projection plot saved: embedding_projection.png
+warning: Embedding dir exists, did you set global_step for add_embedding()?
+✅ TensorBoard embedding logged with readable labels!
